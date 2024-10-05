@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+p , h1 , h2 , h3 , h4 ,h5 , h6 ,span{
+    margin: 0;
+    padding: 0;
+}
+.home .image-2 img{
+width: 638px;
+
+}
+.home .image-2::before{
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    width: 206px;
+    height: 187px;
+    top:0;
+    left: -20px;
+    border: 1px solid gray;
+    z-index: -1;
+}
+.home .content-1 h1{
+    font-family: Inter;
+font-size: 100px;
+font-weight: 500;
+line-height: 160.96px;
+text-align: left;
+
+}
+
+.home .content-1 p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 42.12px;
+    text-align: left;
+    
+
+}
+.home .content-2 p{
+    font-weight: bolder;
+    font-size: 33px;
+}
+.home .content-2 span{
+    font-size: 14px;
+}
+.home .image-2{
+    padding-top: 20px;
+    position: relative;
+}
+.home .image-2 button{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 24%;
+    padding: 30px 40px;
+}
+
+
+
+/* services  */
+#services{
+    padding-top: 70px;
+    
+}
+.our-services h1{
+    position: relative;
+    margin-left: 40px;
+}
+.our-services h1::before{
+    content: '';
+    width: 90px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+.services-exps {
+    padding-top: 60px;
+
+}
+.services-exps .exp{
+    padding: 10px;
+}
+.services-exps .exp i{
+    font-size: 40px;
+    padding-bottom: 60px;
+    color: gray;
+
+}
+.services-exps .exp .content h3{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 36.34px;
+text-align: left;
+
+}
+
+.services-exps .exp .content p{
+    color: gray;
+    padding-top: 20px;
+    font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 36.34px;
+text-align: left;
+
+}
+.design-ur-dream{
+    padding-top: 150px;
+}
+.design-ur-dream p{
+    padding-block: 0px;
+}
+.design-ur-dream .info {
+    padding-block: 20px;
+}
+.design-ur-dream .info span {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 39.65px;
+    text-align: left;
+    
+}
+.design-ur-dream .info i {
+font-size: 20px;
+
+}
+.design-ur-dream-2{
+    padding-top: 70px;
+}
+.design-ur-dream-2 .steps .step {
+    margin-block: 50px;
+}
+.design-ur-dream-2 .steps .step i {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+.design-ur-dream-2 .steps .step .i{
+    position: relative;
+}
+.design-ur-dream-2 .steps .step .i::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 50px;
+    background-color: black;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    bottom: -80px;
+}
+
+.what-they-say{
+    padding-top: 70px;
+}
+.what-they-say .cards{
+    bottom: 10%;
+    left: 16%;
+}
+.what-they-say .cards .card {
+    background-color:#1F1F1F ;
+    color: white;
+    padding-block: 40px;
+    
+}
+.what-they-say .cards .card i{
+    font-size: 80px;
+    line-height: 100px;
+}
+.what-they-say .cards .card p{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 39.65px;
+text-align: left;
+margin-block: 10px;
+
+}
+.what-they-say .cards .card .person{
+    display: flex;
+    align-items: center;
+}
+.what-they-say .cards .card .person img{
+    width: 60px;
+    display: flex;
+}
+.what-they-say .cards .card .person .person-info h4{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.05px;
+text-align: left;
+
+}
+.what-they-say .cards .card .person .person-info p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+    
+}
+.subscribe{
+    padding-top: 70px;
+}
+.subscribe h1{
+    padding-block: 40px;
+}
+.input-group .btn-subscribe {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  .input-group .form-control {
+    background-color: white; /* White background */
+    border: none; /* Remove borders */
+    box-shadow: none; /* Remove Bootstrap's default box shadow */
+  }
+
+  .input-group .form-control:focus {
+    box-shadow: none; /* No shadow on focus */
+  }
+
+  .input-group .form-control::placeholder {
+    color: #999;
+  }
+
+  .input-group-text {
+    background-color: white; /* Match the input background */
+    border: none; /* Remove border from icon */
+  }
+  footer{
+    color: white;
+    background-color: #1F1F1F;
+    margin: 0;
+    --bs-gutter-x: 0 !important;
+
+    
+  }
+.subs{
+    position: absolute;
+    bottom: -20px;
+}
